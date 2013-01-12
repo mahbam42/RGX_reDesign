@@ -1,0 +1,8 @@
+@import 'mixins.scss'
+@import 'vars1.scss'
+
+$colorTest: #ff00ff; 
+
+p {
+    color: rgba(red($colorTest), green($colorTest), blue($colorTest), 1.0); 
+}
