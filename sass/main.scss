@@ -5,6 +5,11 @@ body {
     @include backgroundTexture('../images/green-fibers.png', $mainColor);
 //    @include gradient
     color: $textColor;
+    font: {
+        family: $mainFont;
+        size: 13px
+    }
+    line-height: 1.1 em; 
 }
 
 body:before {
@@ -51,9 +56,18 @@ body:before {
 
 #header {
     height: $headerHeight; 
+    padding-top: 2%;
+    em {
+        font-family: $mainFont; 
+        style: italic;
+    }
     h1, h3 {
         display: inline;
         @include marginFix;
+        font: {
+            family: $headers; 
+            weight: 400; 
+        }
     }
 }
 

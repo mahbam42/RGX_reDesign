@@ -1,9 +1,13 @@
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Istok+Web:400,700,400italic,700italic);
 body {
   background: #023727 url("../images/green-fibers.png");
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: top left;
-  color: ivory; }
+  color: ivory;
+  font-family: "Lora", serif;
+  font-size: 13px;
+  line-height: 1.1 em; }
 
 body:before {
   /* puts a gradient on top of the background image */
@@ -101,14 +105,20 @@ body:before {
     display: inline-block; }
 
 #header {
-  height: 5%; }
+  height: 5%;
+  padding-top: 2%; }
+  #header em {
+    font-family: "Lora", serif;
+    style: italic; }
   #header h1, #header h3 {
     display: inline;
     /* Fix for webkit margins */
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
     -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px; }
+    -webkit-margin-end: 0px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 400; }
 
 #sidebar {
   margin-top: 5%;
