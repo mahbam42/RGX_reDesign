@@ -84,3 +84,33 @@ body:before {
 	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba($mainColor, 0.75), rgba(0,0,0,0)); 
     }
 }
+
+#team {
+    @extend #content; 
+    text-align: center; 
+    h2 { 
+        @include marginFix; 
+        font: { 
+            family: $headers; 
+            weight: 400; 
+        }
+        float: left;
+        & + * {
+            clear: left; 
+        }
+    }
+    .imageSpotlight {
+        @include corners($content, 500px, 500px, 500px, 500px, 0px);
+        width: 220px;
+        height: 220px;
+    }
+
+    #richard {
+        @include backgroundTexture('../images/pinstriped_suit.png', $content);
+        @include corners($accent, 3px, 3px, 3px, 3px, 1px)
+    }
+    #max {
+        @include backgroundTexture('../images/robots.png', $content);
+        @include corners($accent, 3px, 3px, 3px, 3px, 1px)
+    }
+}
