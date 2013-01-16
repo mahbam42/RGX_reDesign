@@ -1,0 +1,35 @@
+﻿<%@ Master Language="VB" CodeFile="rgx.master.vb" Inherits="rgx" %>
+<%@ Register TagPrefix="rgx" TagName="nav" Src="~/nav.ascx" %>
+<%@ Register TagPrefix="rgx" TagName="sidebar" Src="~/sidebar.ascx" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>RGX Consulting</title>
+    <link rel="stylesheet" href="style/960.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container_12">
+    	    <div id="header" class="grid_12">
+        	    <h1>RGX Consulting</h1>
+                <h3>- solutions for You <em>and</em> Your Business</h3>
+                <!-- Nav Control -->
+                <rgx:nav ID="Nav" runat="server"/>
+            </div>
+
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+            <rgx:sidebar id="sidebar" runat="server" />
+            <div class="grid_12">
+                <rgx:nav ID="footerNav" runat="server"/>
+            </div>
+        </div><!-- end container -->
+
+    </form>
+</body>
+</html>
