@@ -4,3 +4,9 @@ assets/
 .sass-cache/
 _notes/
 */_notes/
+*designer.vb
+web.debug.config
+web.Release.config
+rgx.*
+obj/
+My Project/
