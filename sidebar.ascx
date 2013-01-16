@@ -1,5 +1,5 @@
 ﻿<%@ Control Language="VB" AutoEventWireup="false" CodeFile="sidebar.ascx.vb" Inherits="sidebar" %>
-<div class="grid_2">
+<div class="grid_2" style="margin-top: 5%;">
     Get to know Us.
     <img src="../images/taco.jpg" alt="Facebook" style="width: 64px; height: 64px;" />
     <img src="../images/taco.jpg" alt="Twitter" style="width: 64px; height: 64px;" /><br />
