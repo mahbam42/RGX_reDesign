@@ -18,15 +18,19 @@
         	    <h1>RGX Consulting</h1>
                 <h3>- solutions for You <em>and</em> Your Business</h3>
                 <!-- Nav Control -->
-                <rgx:nav ID="Nav" runat="server"/>
+                <div id="nav">
+                    <rgx:nav ID="Nav" runat="server"/>
+                </div>
             </div>
 
             <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
             </asp:ContentPlaceHolder>
-            <rgx:sidebar id="sidebar" runat="server" />
-            <div class="grid_12">
-                <rgx:nav ID="footerNav" runat="server"/>
+            <div  id="sidebar">
+                <rgx:sidebar runat="server" />
+            </div>
+            <div id="footerNav" class="grid_12">
+                <rgx:nav runat="server"/>
             </div>
         </div><!-- end container -->
 
