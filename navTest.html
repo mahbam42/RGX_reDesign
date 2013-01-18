@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Menu Test</title>
+	<link rel="stylesheet" href="style/960.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <style>
+	.sample {
+		width: 75%; 
+		border: 1px dashed black; 
+		margin-left: auto; 
+		margin-right: auto;
+	}
+	h1 {
+		font-size: 20px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		   font-weight: 300;
+		text-transform: uppercase;
+		margin: 15px;
+		color: #aaa;
+	}
+	
+	#ex3 {
+		width: 730px;
+		height: 133px;
+		line-height: 0px;
+		color: transparent;
+		font-size: 50px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		   font-weight: 300;
+		text-transform: uppercase;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+	}
+	
+	#ex3:hover {
+		line-height: 133px;
+		color: #575858;
+	}
+	
+	#ex3 img{
+		float: left;
+		margin: 0 15px;
+	}
+	</style>
+</head>
+
+<body>
+	<div style="container_12">
+    	<!-- Example 1 -->
+    	<div class="sample">
+        	<h2>Example Code</h2>
+            <p><a href="http://designshack.net/tutorialexamples/HoverEffects/Ex3.html">designshack.net</a></p>
+            
+            <div id="ex3">
+                <img src="http://lorempixum.com/400/133"><p>Some Text</p>
+            </div>
+        </div>
+        
+        <!-- Current Menu from nav.ascx -->
+        <div id="nav" class="sample">
+        	<ul>
+                <li class="grid_2"><a href="~/default.aspx">Home</a></li>
+                <li class="grid_2"><a href="~/about/default.aspx">About</a></li>
+                <li class="grid_2"><a href="~/team/default.aspx">Our Team</a></li>
+                <!-- This will be re-added pending better copy <li class="grid_2">Expertise</li> -->
+            </ul>
+        </div>
+    
+    </div>
+</body>
+</html>
