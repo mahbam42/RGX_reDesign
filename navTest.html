@@ -37,10 +37,40 @@
 	
 	#ex3:hover {
 		line-height: 133px;
-		color: #575858;
+		color: ivory;
 	}
 	
 	#ex3 img{
+		float: left;
+		margin: 0 15px;
+	}
+	
+	#test1 {
+		line-height: 0px;
+		color: transparent;
+		Font-size: 24px;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		   font-weight: 300;
+		text-transform: uppercase;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+	}
+	
+	#test1 a {
+		color: transparent; 
+		text-decoration: none;
+		-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+		-o-transition: all 0.5s ease;
+	}
+		
+	#test1:hover a {
+		line-height: 1.3em;
+		color: #575858;
+	}
+	
+	#test1 img{
 		float: left;
 		margin: 0 15px;
 	}
@@ -60,15 +90,18 @@
         </div>
         
         <!-- Current Menu from nav.ascx -->
-        <div id="nav" class="sample">
-        	<ul>
-                <li class="grid_2"><a href="~/default.aspx">Home</a></li>
-                <li class="grid_2"><a href="~/about/default.aspx">About</a></li>
-                <li class="grid_2"><a href="~/team/default.aspx">Our Team</a></li>
-                <!-- This will be re-added pending better copy <li class="grid_2">Expertise</li> -->
-            </ul>
-        </div>
-    
+        <div class="sample">
+            <div id="nav">
+                <ul>
+                    <li class="grid_2" id="test1"><img src="images/home.png" alt="Home" /><a href="~/default.aspx">Home</a></li>
+                    <li class="grid_2"><a href="~/about/default.aspx">About</a></li>
+                    <li class="grid_2"><a href="~/team/default.aspx">Our Team</a></li>
+                    <!-- This will be re-added pending better copy <li class="grid_2">Expertise</li> -->
+                </ul>
+            </div>
+            <p>taco</p>    <p>taco</p>    <p>taco</p>    <p>taco</p>
+    	</div>    
     </div>
+    
 </body>
 </html>
