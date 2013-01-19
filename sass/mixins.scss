@@ -17,7 +17,7 @@
     /* fix for box model */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    x-sizing: border-box;
+    box-sizing: border-box;
 }
 
 @mixin marginFix {

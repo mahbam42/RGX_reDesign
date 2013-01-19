@@ -42,7 +42,7 @@ body:before {
   /* fix for box model */
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  x-sizing: border-box;
+  box-sizing: border-box;
   background: #154b3a;
   /* Old browsers */
   background: -moz-linear-gradient(top, #0a231b 0%, #20735a 100%);
@@ -82,7 +82,7 @@ body:before {
     /* fix for box model */
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    x-sizing: border-box;
+    box-sizing: border-box;
     background: #013d2a;
     /* Old browsers */
     background: -moz-linear-gradient(top, #02563b 0%, #012419 100%);
