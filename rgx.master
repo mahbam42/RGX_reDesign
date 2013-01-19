@@ -19,7 +19,7 @@
                 <h3>- solutions for You <em>and</em> Your Business</h3>
                 <!-- Nav Control -->
                 <div id="nav">
-                    <rgx:nav ID="Nav" runat="server"/>
+                    <rgx:nav ID="NavMenu" runat="server"/>
                 </div>
             </div>
 
