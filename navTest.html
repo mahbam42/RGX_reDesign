@@ -45,10 +45,10 @@
 		margin: 0 15px;
 	}
 	
-	#test1 {
+	.test1 {
 		line-height: 0px;
 		color: transparent;
-		Font-size: 24px;
+		/* Font-size: 24px; */
 		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 		   font-weight: 300;
 		text-transform: uppercase;
@@ -57,28 +57,34 @@
 		-o-transition: all 0.5s ease;
 	}
 	
-	#test1 a {
+	.test1 a {
 		color: transparent; 
 		text-decoration: none;
+		width: 88%;
+		display: inline-block;
+		z-index: 100; 
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
 	}
 		
-	#test1:hover a {
+	.test1:hover a {
 		line-height: 1.3em;
-		color: #575858;
+		width: 88%;
+		color: ivory; /* orignal #575858; */
 	}
 	
-	#test1 img{
+	.test1 img{
 		float: left;
-		margin: 0 15px;
+		margin: 0 15px 0 5px;
+		width: 16px;
+		height: 16px;	
 	}
 	</style>
 </head>
 
 <body>
-	<div style="container_12">
+	<div class="container_12">
     	<!-- Example 1 -->
     	<div class="sample">
         	<h2>Example Code</h2>
@@ -89,19 +95,47 @@
             </div>
         </div>
         
-        <!-- Current Menu from nav.ascx -->
-        <div class="sample">
+        <!-- Experiment -->
+        <div class="sample" style="width: 45%; float: left">
             <div id="nav">
                 <ul>
-                    <li class="grid_2" id="test1"><img src="images/home.png" alt="Home" /><a href="~/default.aspx">Home</a></li>
+                    <li class="grid_2 test1"><a href="~/default.aspx"><img src="images/home.png" alt="Home" />Home</a></li>
+                    <li class="grid_2 test1"><a href="~/about/default.aspx"><img src="images/cmd.png" alt="Home" />About</a></li>
+                    <li class="grid_2 test1"><a href="~/team/default.aspx"><img src="images/users.png" alt="Home" />Team</a></li>
+                    <!-- This will be re-added pending better copy <li class="grid_2">Expertise</li> -->
+                </ul>
+            </div>
+    	</div>    
+        
+        <!-- Experiment 2-->
+        <!-- Encapsulate the contents of the li in the link. add a span wrapper around the text and adjust the css accordingly -->
+        <div class="sample" style="width: 45%; float: left">
+            <div id="nav" class="test2">
+                <ul>
+                    <li class="grid_2 menu"><a href="~/default.aspx"><img src="images/home.png" alt="Home" />Home</a></li>
+                    <li class="grid_2 menu"><a href="~/about/default.aspx"><img src="images/cmd.png" alt="Home" />About</a></li>
+                    <li class="grid_2 menu"><a href="~/team/default.aspx"><img src="images/users.png" alt="Home" />Our Team</a></li>
+                    <!-- This will be re-added pending better copy <li class="grid_2">Expertise</li> -->
+                </ul>
+            </div>
+    	</div>   
+        
+        <!-- Original -->
+        <div class="sample" style="width: 45%; float: left">
+        	<div id="nav">
+        	<h3>Original</h3>
+                <ul>
+                    <li class="grid_2"><a href="~/default.aspx">Home</a></li>
                     <li class="grid_2"><a href="~/about/default.aspx">About</a></li>
                     <li class="grid_2"><a href="~/team/default.aspx">Our Team</a></li>
                     <!-- This will be re-added pending better copy <li class="grid_2">Expertise</li> -->
                 </ul>
             </div>
-            <p>taco</p>    <p>taco</p>    <p>taco</p>    <p>taco</p>
-    	</div>    
+        </div>
+        
     </div>
+    
+    
     
 </body>
 </html>

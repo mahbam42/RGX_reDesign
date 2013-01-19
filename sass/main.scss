@@ -52,6 +52,38 @@ body:before {
 
         }
     }
+    .menu {
+        line-height: 0px;
+        color: transparent; 
+        text-transform: uppercase;
+        font: {
+            weight: 300;
+            family: headers;
+        }
+        -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        a {
+            color: transparent; 
+            text-decoration: none;
+            width: 88%;
+            display: inline-block;
+            -webkit-transition: all 0.5s ease;
+            -moz-transition: all 0.5s ease;
+            -o-transition: all 0.5s ease;
+        }
+        img {
+            float: left;
+            margin: 0 15px 0 5px;
+            width: 16px;
+            height: 16px; 
+        }
+        &:hover a {
+            line-height: 1.3em;
+            width: 88%;
+            color: $textColor;
+        }
+    }
 }
 
 #header {
