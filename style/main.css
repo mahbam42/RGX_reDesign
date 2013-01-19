@@ -140,10 +140,9 @@ body:before {
     display: none;
     visibility: hidden; }
   #footerNav #copyright {
-    clear: left; }
-  #footerNav .tagline {
-    float: right;
-    font-style: italic; }
+    clear: left;
+    float: left;
+    text-align: left; }
 
 #header {
   height: 5%;

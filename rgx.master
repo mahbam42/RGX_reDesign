@@ -31,8 +31,7 @@
             </div>
             <div id="footerNav" class="grid_12">
                 <rgx:nav runat="server"/>
-				<p id="copyright">&copy; 2013 RGX Consulting</p>
-				<p class="tagline">Solutions for You</p>
+				<p id="copyright">&copy; 2013 RGX Consulting ~ <em>Solutions for You</em></p>
             </div>
         </div><!-- end container -->
 

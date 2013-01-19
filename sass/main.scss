@@ -100,10 +100,8 @@ body:before {
     }
     #copyright {
         clear: left; 
-    }
-    .tagline {
-        float:right; 
-        font-style: italic;
+        float: left; 
+        text-align: left; 
     }
 }	   
 
