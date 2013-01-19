@@ -30,7 +30,7 @@ body:before {
     @include gradient(darken($content, 30%), darken($content, 10%), 100%);
     margin-top: $headerHeight;
     padding: 2% 2% 6% 2%;
-    height: 75%
+    height: 75%;
     h2 { 
         @include marginFix; 
         font: { 
