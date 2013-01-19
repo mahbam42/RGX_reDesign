@@ -31,6 +31,17 @@ body:before {
     margin-top: $headerHeight;
     padding: 2% 2% 6% 2%;
     height: 75%
+    h2 { 
+        @include marginFix; 
+        font: { 
+            family: $headers; 
+            weight: 400; 
+        }
+        float: left;
+        & + * {
+            clear: left; 
+        }
+    }
 }
 
 #nav {
@@ -136,20 +147,14 @@ body:before {
     }
 }
 
+// Internal Pages
+#about {
+    @extend #content;
+}
+
 #team {
     @extend #content; 
     text-align: center; 
-    h2 { 
-        @include marginFix; 
-        font: { 
-            family: $headers; 
-            weight: 400; 
-        }
-        float: left;
-        & + * {
-            clear: left; 
-        }
-    }
     .imageSpotlight {
         @include corners($content, 500px, 500px, 500px, 500px, 0px);
         width: 220px;
