@@ -52,6 +52,7 @@ body:before {
 
         }
     }
+    // This is where things get cray cray 
     .menu {
         line-height: 0px;
         color: transparent; 
@@ -85,6 +86,26 @@ body:before {
         }
     }
 }
+
+#footerNav {
+    text-align: center;
+    font-size: 0.75em;
+    a {
+        text-decoration: none;
+        color: $accent;
+    }
+    img {
+        display: none;
+        visibility: hidden;
+    }
+    #copyright {
+        clear: left; 
+    }
+    .tagline {
+        float:right; 
+        font-style: italic;
+    ]
+}	   
 
 #header {
     height: $headerHeight; 
