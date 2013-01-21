@@ -1,17 +1,17 @@
 ﻿<%@ Control Language="VB" AutoEventWireup="false" CodeFile="sidebar.ascx.vb" Inherits="sidebar" %>
 <div class="grid_2" style="margin-top: 5%;">
-    Get to know Us.
-    <img src="../images/taco.jpg" alt="Facebook" style="width: 64px; height: 64px;" />
-    <img src="../images/taco.jpg" alt="Twitter" style="width: 64px; height: 64px;" /><br />
-    <img src="../images/taco.jpg" alt="LinkedIn" style="width: 64px; height: 64px;" />
-    <img src="../images/taco.jpg" alt="Reddit?" style="width: 64px; height: 64px;" />
+    <div class="social" style="visibility: hidden; display: none;">
+        Get to know Us.
+        <img src="../images/taco.jpg" alt="Facebook" style="width: 64px; height: 64px;" />
+        <img src="../images/taco.jpg" alt="Twitter" style="width: 64px; height: 64px;" /><br />
+        <img src="../images/taco.jpg" alt="LinkedIn" style="width: 64px; height: 64px;" />
+        <img src="../images/taco.jpg" alt="Reddit?" style="width: 64px; height: 64px;" />
+        <hr />
+    </div>
+    <p>
+        Offices located in Los Angeles, San Diego, and Boston</p>
     <hr />
     <p>
-        Bacon ipsum dolor sit amet doner meatball andouille beef ribs kielbasa spare ribs,
-        flank drumstick pastrami</p>
-    <hr />
-    <p>
-        Pancetta andouille short loin hamburger. Hamburger ham hock bacon, filet mignon
-        beef ribs ribeye drumstick.</p>
+        Contact us at <a href="mailto:contact@rgxconsulting.com">contact@rgxconsulting.com</a></p>
     <hr />
 </div>
