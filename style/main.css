@@ -8,6 +8,12 @@ body {
   font-family: "Lora", serif;
   font-size: 13px;
   line-height: 1.1 em; }
+  body a, body:visted {
+    color: ivory;
+    text-decoration: none; }
+    body a:hover, body:visted:hover {
+      font-style: italic;
+      color: #34649b; }
 
 body:before {
   /* puts a gradient on top of the background image */
@@ -62,12 +68,6 @@ body:before {
   margin-top: 5%;
   padding: 2% 2% 6% 2%;
   height: 75%; }
-  #content a, #about a, #team a, #content:visted, #about:visted, #team:visted {
-    color: ivory;
-    text-decoration: none; }
-    #content a:hover, #about a:hover, #team a:hover, #content:visted:hover, #about:visted:hover, #team:visted:hover {
-      font-style: italic;
-      color: #34649b; }
   #content h2, #about h2, #team h2 {
     /* Fix for webkit margins */
     -webkit-margin-before: 0em;
