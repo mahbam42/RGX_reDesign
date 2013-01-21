@@ -160,7 +160,7 @@ body:before {
   padding-top: 2%; }
   #header em {
     font-family: "Lora", serif;
-    style: italic; }
+    font-style: italic; }
   #header h1, #header h3 {
     display: inline;
     /* Fix for webkit margins */

@@ -120,8 +120,10 @@ body:before {
     height: $headerHeight; 
     padding-top: 2%;
     em {
-        font-family: $mainFont; 
-        style: italic;
+        font: {
+            family: $mainFont; 
+            style: italic;
+        }
     }
     h1, h3 {
         display: inline;
