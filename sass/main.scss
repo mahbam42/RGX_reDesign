@@ -31,6 +31,14 @@ body:before {
     margin-top: $headerHeight;
     padding: 2% 2% 6% 2%;
     height: 75%;
+    a, &:visted {
+        color: $textColor; 
+        text-decoration: none; 
+        &:hover {
+            font-style: italic;
+            color: $accent;
+        }
+    }
     h2 { 
         @include marginFix; 
         font: { 
