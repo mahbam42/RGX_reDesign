@@ -12,6 +12,6 @@
         Offices located in Los Angeles, San Diego, and Boston</p>
     <hr />
     <p>
-        Contact us at <a href="mailto:contact@rgxconsulting.com">contact@rgxconsulting.com</a></p>
+        <a href="mailto:contact@rgxconsulting.com">Contact us!</a></p>
     <hr />
 </div>

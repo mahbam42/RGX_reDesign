@@ -8,12 +8,6 @@ body {
   font-family: "Lora", serif;
   font-size: 13px;
   line-height: 1.1 em; }
-  body a, body:visted {
-    color: ivory;
-    text-decoration: none; }
-    body a:hover, body:visted:hover {
-      font-style: italic;
-      color: #34649b; }
 
 body:before {
   /* puts a gradient on top of the background image */
@@ -39,6 +33,13 @@ body:before {
   position: absolute;
   top: 0;
   left: 0; }
+
+a, a:visted {
+  color: ivory;
+  text-decoration: none; }
+  a:hover, a:visted:hover {
+    font-style: italic;
+    color: #34649b; }
 
 #content, #about, #team {
   border-radius: 3px 3px 3px 3px;
