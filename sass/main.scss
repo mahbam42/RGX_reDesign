@@ -165,6 +165,7 @@ a, a:visted {
 #team {
     @extend #content; 
     text-align: center; 
+    padding: 5%;
     .imageSpotlight {
         @include corners($content, 500px, 500px, 500px, 500px, 0px);
         width: 220px;
