@@ -14,13 +14,12 @@
             <div id="max" class="grid_3">
             	<img src="../images/maxPlaceholder.png" alt="Max" class="imageSpotlight" />
                 <h3>Max Brother</h3>
-                <p>Legend - wait for it... - dary. Legendary!<br />
-                Seriously though, we're pretty sure Max is powered by coffee and definitely dreams in HTML and CSS.</p>
+                <p>Seriously though, we're pretty sure Max is powered by coffee and definitely dreams in HTML and CSS.</p>
             </div>
             <div id="amy" class="grid_3 omega">
             	<img src="../images/faceplaceholder.png" alt="Amy" class="imageSpotlight" />
                 <h3>Amy Sheridan</h3>
-                <p>A seasoned paralegal with a rich background in both corporate and non-profit business. Truely an assest to any organization, regardless of size or goal.s</p>
+                <p>Our staff legal advisor. Truely an assest to any organization, regardless of size or goals./p>
             </div>
          <div><!-- Row 2 -->
             <div id="you" class="alpha grid_3 suffix_6" style="margin-top: 20px;">
